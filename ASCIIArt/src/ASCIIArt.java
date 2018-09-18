@@ -15,3 +15,19 @@
  */
 
 // YOUR CODE GOES HERE :)
+
+public class ASCIIArt {
+	public static void newline() {
+		System.out.println();
+	}
+	
+	public static void drawSun() {
+		System.out.print("                                    ,");
+		newline();
+		System.out.print("\\_!__!___/");
+	}
+	
+	public static void main(String[] args) {
+		drawSun();
+	}
+}
